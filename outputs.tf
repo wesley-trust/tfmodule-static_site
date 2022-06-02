@@ -1,3 +1,3 @@
-output "wesleytrust-com" {
-  value = azurerm_static_site.wesleytrust-com
+output "static_site" {
+  value = azurerm_static_site.static_site
 }
