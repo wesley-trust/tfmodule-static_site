@@ -5,4 +5,5 @@ module "static_site" {
   service_location    = var.service_location
   service_environment = var.service_environment
   service_deployment  = var.service_deployment
+  resource_name       = var.resource_name
 }
